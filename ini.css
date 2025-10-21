@@ -1,0 +1,79 @@
+body {
+background-color: #E6F4F1;
+margin:30px;
+font-family: Poppins;
+color: #2B2B2B;
+}
+
+.tabel-nama{
+    border-collapse: collapse;
+    background-color: #e8fefd;
+    border: 2px solid #d1f0ee;
+}
+
+.judul{
+    text-align: center;
+    padding: 15px;
+    background-color: #009dae;
+    border-radius: 10px;
+    color: #ffffff;
+}
+
+.judul img {
+    display: block;
+    margin: 10px auto;
+    border-radius: 10px;
+    max-width: 200px;
+    height: auto;
+}
+
+.teks-bergerak{
+    background-color: #a3e4db;
+    height: 30px;
+    overflow: hidden;
+}
+
+.teks-gerak{
+    white-space: nowrap;
+    width: 100%;
+}
+
+.teks-gerak p {
+    margin: 5px;
+    display: inline-block;
+    position: relative;
+    right: -100%;
+    animation: Animasi-untuk-gerak 7s linear infinite;
+    font-weight: bold;
+    color:1c3b48;
+}
+
+@keyframes Animasi-untuk-gerak{
+    from{left:-100%; }
+    to {left:100%;}
+}
+
+.bagian-kiri{
+    background-color: #a3e4db;
+    vertical-align: top;
+    padding: 15px;
+}
+
+.bagian-kiri a{
+    color: #4c52ad;
+    text-decoration: none;
+}
+.bagian-kiri a:hover{
+    color: #009dae;
+    text-shadow: 0 0 8px rgba(0, 157, 174, 0.5);
+    text-decoration: underline;
+}
+
+.bagian-kanan{
+    vertical-align: top;
+    padding: 15px;
+}
+
+.biodata td{
+    padding: 5px 10px;
+}
